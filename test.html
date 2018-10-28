@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>충북대학교 auth sso test</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9;IE=edge" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Pragma" content="no-store"/>
+<meta http-equiv="Cache-Control" content="max-age=0" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+</head>
+
+<body>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">보건진료원-u헬스케어(구분:33)</h3>
+	<form name="sfrm0" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="33" />
+	<input type="hidden" name="reURL" value="http://cuh.chungbuk.ac.kr/client/member/LgnProc_n.asp" />
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid" style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">종합인력개발원(구분:05)</h3>
+	<form name="sfrm1" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="05" />
+	<input type="hidden" name="reURL" value="http://hrd.cbnu.ac.kr/login/dbinfo_chk.asp" />
+		<fieldset>
+			<legend>로그인</legend>
+				<div class="radioBox">
+					<label for="log1">
+						<input type="radio" id="log1" name="gb"  value="1" checked />학생
+					</label>
+					<label for="log2">
+						<input  type="radio" id="log2" name="gb" value="10" />졸업생
+					</label>
+					<label for="log3">
+						<input type="radio" id="log3" name="gb" value="3"  />교직원
+					</label>
+					<label for="log4">
+						<input type="radio" id="log4" name="gb"  value="2" />기업회원
+					</label>
+				</div>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">공동실험실습관(구분:14)</h3>
+	<form name="sfrm2" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="14" />
+    <input type="hidden" id="reURL" name="reURL" value="">
+	<input type="hidden" id="userkey" name="userkey" value="YNifhw5vqDcJ9FtbedU1gVtUD/sCHeGSFum9GcQ+Wd0=" />
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+		*reURL 없고, 기본 :http://safe.chungbuk.ac.kr/Account/LogSSOResult로 넘겨주시면 됩니다.
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">교수학습지원센터(이러닝,Blackboard)(구분:31)</h3>
+	<form name="sfrm3" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="31" />
+    <input type="hidden" id="reURL" name="reURL" value="">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+		*reURL 없고, 기본 내부 스크립트로 넘겨주시면 됩니다.
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">수의대홈페이지,농대(구분:17)</h3>
+	<form name="sfrm4" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="17" />
+    <input type="hidden" id="reURL" name="reURL" value="http://vetmed.cbnu.ac.kr/dsoft">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+		* 내부주소로 처리하여 확인이 안됩니다. 기본 uid, pswd, gubun=17, reURL 기본정보로 로그인 리턴값은 gubun에 따름
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">의사소통혁신센터(구분:30)</h3>
+	<form name="sfrm5" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="30" />
+    <input type="hidden" id="reURL" name="reURL" value="http://cicenter.chungbuk.ac.kr/member/newAuth.do?authNo=5124331417132763620">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+		*authNo 변수값이 페이지에서 재생성되어 테스트 안됨 기본 uid,pswd, gubun, reURL만 처리하여 구분값에 따라 리턴(실사용)
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">전자정보대학취업진로지원센터(구분:25)</h3>
+	<form name="sfrm6" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="25" />
+    <input type="hidden" id="reURL" name="reURL" value="http://job.ece.chungbuk.ac.kr/loginAuth.do">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">원예과전공(구분:18)</h3>
+	<form name="sfrm7" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="18" />
+    <input type="hidden" id="reURL" name="reURL" value="https://hortisci.chungbuk.ac.kr/html/www/auth/_recepitLoign.php">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">인문대학(구분:12)</h3>
+	<form name="sfrm8" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="12" />
+    <input type="hidden" id="reURL" name="reURL" value="http://humanum.chungbuk.ac.kr/loginAuth.do">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="id"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="password" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+	</form>
+	*인문대학은 uid->id, pswd->password로 받음
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">의과대(구분:19)</h3>
+	<form name="sfrm9" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="19" />
+    <input type="hidden" id="reURL" name="reURL" value="https://medweb.chungbuk.ac.kr/auth/_recepitLoign.php">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">교수학습진단시스템 홈페이지(구분:32)</h3>
+	<form name="sfrm10" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="32" />
+    <input type="hidden" id="reURL" name="reURL" value="http://learn.cbnu.ac.kr//bbs/member/process/login.php?mode=login">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">사범대학 홈페이지(구분:26)</h3>
+	<form name="sfrm11" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="26" />
+    <input type="hidden" id="reURL" name="reURL" value="http://edu.chungbuk.ac.kr/loginSecondProcess.do?rurl=http://edu.chungbuk.ac.kr/www/index.do">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">약학대학(구분:21-공대것 함께사용)</h3>
+	<form name="sfrm12" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="21" />
+    <input type="hidden" id="reURL" name="reURL" value="https://pharm.cbnu.ac.kr/app/">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">교수학습지원센터(구분:09)</h3>
+	<form name="sfrm13" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="09" />
+    <input type="hidden" id="reURL" name="reURL" value="">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+		*reURL 없고 로그인완료 하면 리턴변수와 함께 http://ctl.cbnu.ac.kr/member/process/loginchk.php 전달
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">웹메일 회원가입(구분:07)</h3>
+	<form name="sfrm14" action="http://wmail.cbnu.ac.kr/mail/registration/cbnu_join.neo" method="post" >
+	<input type=hidden name=act value="ok">
+	<input type="hidden" name="gubun" value="07" />
+    <input type="hidden" id="reURL" name="reURL" value="">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+		*웹메일은 어제 날짜 보내드린 것 참고하시면 됩니다. 자체 url에서 auth1.jsp 호출합니다.
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">장애지원센터(구분:22)</h3>
+	<form name="sfrm15" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="22" />
+    <input type="hidden" id="reURL" name="reURL" value="https://supporter.chungbuk.ac.kr/template/member/cb_login.jsp">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">교수회홈페이지(구분:34)</h3>
+	<form name="sfrm16" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="34" />
+    <input type="hidden" id="reURL" name="reURL" value="http://faculty.chungbuk.ac.kr/">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">여대생커리어(구분:08)</h3>
+	<form name="sfrm17" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="08" />
+    <input type="hidden" id="reURL" name="reURL" value="">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+		* reURL 없고, 로그인 완료하면 http://career.cbnu.ac.kr/member/process/loginchk.php 변수와 함께 리턴
+	</form>
+</div>
+<div style="float:left;width:300px;height:250px;border:1px solid;margin:5px;word-break:break-all;">
+	<h3 style="margin:0;">공학교육혁신센터(구분:10)</h3>
+	<form name="sfrm18" action="http://localhost:8080/auth" method="post" >
+	<input type="hidden" name="gubun" value="10" />
+    <input type="hidden" id="reURL" name="reURL" value="">
+		<fieldset>
+			<legend>로그인</legend>
+			<ul>
+				<li>
+					<label class="" for="uid">아이디　</label>
+					<input type="text" name="uid"  style="width:120px;" id="uid" placeholder="아이디" class="txt" /><br>
+				</li>
+				<li>
+					<label class="" for="pswd">비밀번호</label>
+					<input type="password" name="pswd" style="width:120px;" id="pswd" placeholder="비밀번호" class="txt" />
+				</li>
+				<li><input type="submit" class="btn" value="로그인" /></li>
+			</ul>
+		</fieldset>
+		* reURL 없고, 로그인 완료하면 http://eeic.cbnu.ac.kr/member/process/loginchk.php 변수와 함께 리턴
+	</form>
+</div>
+ </body>
+</html>
+
